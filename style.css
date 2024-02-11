@@ -1,0 +1,251 @@
+* {
+    font-family: 'Karla',Helvetica, sans-serif; 
+    font-style: normal;
+    color: #1E1E1E;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #1E1E1E;
+
+    margin:0;
+
+}
+
+.main-container{
+    background: #FFFFFF;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    
+    height: auto;
+    width: 100%;
+}
+
+.left-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 56px 77px;
+    gap: 60px;
+
+    position: relative;
+    width: 40%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.header {
+    margin:0px;
+}
+
+.header-text-userlogin {
+    font-size: 24px;
+    line-height: 28px;
+    margin:0px;
+    font-weight: 700;
+    color: #FAA307;
+}
+
+.header-text-adminlogin {
+    font-size: 24px;
+    line-height: 28px;
+    margin:0px;
+    font-weight: 700;
+    color:  #E85D04;
+}
+
+.header-text-usersignup {
+    font-size: 24px;
+    line-height: 28px;
+    margin:0px;
+    font-weight: 700;
+    color:#FFBA08;
+}
+
+
+.header-subtext {
+    font-size: 24px;
+    line-height: 28px;
+    margin:0px;
+    font-weight: 400;
+    color: #1E1E1E;
+    margin-top: 5px;
+}
+
+
+
+button {   
+    width: 132px;
+    height: 40px;
+    left: 77px;
+    top: 495px;
+
+    border-style:none;
+    color: #FFFFFF;
+
+    
+    border-radius: 5px; 
+}   
+
+.button-userlogin{
+    background: #FAA307;
+}
+.button-adminlogin {
+    background: #E85D04;
+}
+.button-usersignup {
+    background: #FFBA08;
+}
+
+button:hover {   
+    opacity: 0.7;   
+}   
+
+
+input[type=text], input[type=password] {    
+    display: flex;
+
+    box-sizing: border-box;
+    width: 469px;
+    height: 50px;
+    left: 80px;
+    top: 284px;
+    padding: 12px;
+
+    background: #FFFFFF;
+    border: 1 solid #1E1E1E;
+    border-radius: 5px;
+
+}  
+
+.user-login-container {   
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}   
+
+
+.right-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin:0px;
+
+    position: relative ;
+    width: 60%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+.main-img1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.user-login-kusina {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    bottom: 0px;
+}
+
+.forgot-link-userlogin, .user-link {
+    color: #FAA307;
+}
+
+.admin-link, .forgot-link-adminlogin {
+    color: #E85D04;
+}
+
+.foot {
+    margin-top: 20px;
+}
+
+.terms {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.terms-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+input[type="checkbox"] {
+    height: 18px;
+    width: 18px;
+    margin-right: 5px;
+}
+
+.pw-conditions {
+    color:gray;
+    line-height: 25px;
+}
+
+.slide-top {
+	-webkit-animation: slide-top 10s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate both;
+	        animation: slide-top 10s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate both;
+}
+
+@keyframes slide-top {
+    0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    }
+    100% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+    }
+}
+
+.slide-bottom {
+	-webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(-100px);
+              transform: translateY(-100px);
+    }
+    100% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+    }
+}
+
+.fade-in-left {
+	-webkit-animation: fade-in-left 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-left 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+@keyframes fade-in-left {
+    0% {
+      -webkit-transform: translateX(-50px);
+              transform: translateX(-50px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }

@@ -1,0 +1,5 @@
+Hello
+
+Added an SVG icon in the asset > icon folder for the "search-recipe-icon"
+Added an HTML file for the Admin Dashboard page
+Added CSS codes for the Admin Dashboard Page - check stylee sheet for the comment indicating codes for the admin dashboard page
